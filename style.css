@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px red dotted; */
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    max-width: 100%;
+}
+
+#header{
+    display: flex;
+    background-color: indigo;
+    color: white;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#left_header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#left_header>ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+#left_header>ul>li a{
+    text-decoration: none;
+    color: white;
+}
+
+#left_header>ul>li>a :hover{
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+#header>button :hover{
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+#header>button{
+    background-color: #17a2b8;
+    color: white;
+    padding: 1px 2px;
+}
+
+#col {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.left_top {
+    height: 260px;
+    width: 400px;
+    position: relative;
+}
+
+.left_bot{
+    height: 150px;
+    width: 400px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.right_top {
+    height: 190px;
+    width: 175px;;
+    position: relative;
+}
+.right_bot{
+    height: 200px;
+    width: 175px;
+    margin-top: 25px;
+    position: relative;
+}
+#more{
+    border: 1px grey solid;
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    
+}
+.card{
+    height: 70px;
+    background-color: indigo;
+}
+
+.form{
+    border: 1px grey solid;
+}
+.purp{
+    background-color: indigo;
+    height: 30px;
+}
+
+.todd{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 3px indigo solid;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+.left_top>h1{
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    font-size: 10;
+    gap: 11px;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+
+.skills {
+    font-size: 10px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.settings{
+    font-size: 10px;
+    padding-left: 30px;
+    padding-top: 10px;
+    display: flex;
+    gap: 5px;
+}
+.left_bot>h2{
+    color: white;
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    font-size: 20px;
+}
+
+.left_bot>h3{
+    position: relative;
+    left: 15px;
+    top: 10px;
+    padding-bottom: 5px;
+}
+
+.left_bot>p.date {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.left_bot>p.exp {
+    padding-left: 15px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.heady{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    gap: 50px;
+    padding-left: 5px;
+    top: 7px;
+}
+.heady>h3{
+    font-size: 10px;
+    color: white;
+}
+.heady>button{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1px white solid;
+    font-size: 10px;
+}
+
+.con1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.con1 img {
+    border-radius: 50%;
+}
+.con1 button{
+    border-radius: 50%;
+    color: white;
+    background-color: indigo;
+    height: 20px;
+    width: 20px;
+    font-weight: bold;
+    font-size: 8px;
+}
+.con1 p {
+    font-size: 12px;
+    font-weight: bold;
+}
+.con2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.con2 img {
+    border-radius: 50%;
+}
+.con2 button{
+    border-radius: 50%;
+    color: white;
+    background-color: indigo;
+    height: 20px;
+    width: 20px;
+    font-weight: bold;
+    font-size: 8px;
+}
+.con2 p {
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: -14px;
+}
+.heady2 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top:5px;
+    gap: 45px;
+
+}
+.heady2 p{
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.heady2 button{
+    background-color: white;
+    padding: 1px .5px;
+    border-radius: 45%;
+    border: 1px indigo solid;
+    height: 20px;
+    width: 45px;
+    margin-left: 2px;
+}
+
+.con3 {
+    display: flex;
+    padding: 7px 5px;
+}
+.con3 img{
+    border-radius: 50%;
+    border: 1px black solid;
+}
+
+.con3 p {
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+#more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.con1 .but1{
+    margin-left: 12px;
+}
