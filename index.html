@@ -24,7 +24,7 @@
             <div class="left_top form">
                 <div class="card"></div>
                 <img class='todd' src="./Images/todd-s.jpg" alt="todd">
-                <h1>Todd Todderson</h1>
+                <h1 id="fullName">Todd Todderson</h1>
                 <div class="location">
                     <img class='map' src="./Images/icons/map-marker.png" alt="map" height="15px" width="10px">
                     <h3>Toddsville</h3>
@@ -35,7 +35,7 @@
                 </div>
                 <div class="settings">
                     <img class='gear'src="./Images/icons/gear.png" alt="gear" height="10px" width="10px">
-                    <a href="#">edit profile</a>
+                    <a onclick="nameChange()" href="#">edit profile</a>
                 </div>
             </div>
             <div class="left_bot form">
@@ -50,30 +50,30 @@
             <div class="right_top form">
                 <div class="reqs purp"></div>
                     <div class="heady">
-                        <button>2</button>
+                        <button id='reqs'>2</button>
                         <h3>Connection Requests</h3>
                     </div>
-                <div class="con1">
+                <div id="con1">
                     <img src="./Images/todd-s.jpg" alt="todd" height="20px" width="20px">
                     <p>Toddie T</p>
                     <div class="but1">
-                        <button>✔</button>
-                        <button>X</button>
+                        <button onclick="remove();conCountadd();rcountersub()">✔</button>
+                        <button onclick="remove();rcountersub()">X</button>
                     </div>
                 </div>
-                <div class="con2">
+                <div id="con2">
                     <img src="./Images/todd-s.jpg" alt="todd" height="20px" width="20px">
                     <p>Toddly T</p>
                     <div class="but2">
-                        <button>✔</button>
-                        <button>X</button>
+                        <button onclick="remove2();conCountadd();rcountersub()">✔</button>
+                        <button onclick="remove2();rcountersub()">X</button>
                     </div>
                 </div>
             </div>
             <div class="right_bot form">
                 <div class="conn purp"></div>
                     <div class="heady2">
-                        <button>500+</button>
+                        <button id='connectionCount'>500</button>
                         <p>Your Connections</p>
                     </div>
                     <div class="con3">
@@ -98,5 +98,6 @@
             </div>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>

@@ -188,7 +188,7 @@ body{
     font-size: 10px;
 }
 
-.con1{
+#con1{
     display: flex;
     align-items: center;
     gap: 20px;
@@ -196,10 +196,10 @@ body{
     padding-left: 5px;
 }
 
-.con1 img {
+#con1 img {
     border-radius: 50%;
 }
-.con1 button{
+#con1 button{
     border-radius: 50%;
     color: white;
     background-color: indigo;
@@ -208,11 +208,14 @@ body{
     font-weight: bold;
     font-size: 8px;
 }
-.con1 p {
+#con1 p {
     font-size: 12px;
     font-weight: bold;
 }
-.con2{
+#con1 .but1{
+    margin-left: 12px;
+}
+#con2{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -221,10 +224,10 @@ body{
     padding-right: 5px;
 }
 
-.con2 img {
+#con2 img {
     border-radius: 50%;
 }
-.con2 button{
+#con2 button{
     border-radius: 50%;
     color: white;
     background-color: indigo;
@@ -233,7 +236,7 @@ body{
     font-weight: bold;
     font-size: 8px;
 }
-.con2 p {
+#con2 p {
     font-size: 11px;
     font-weight: bold;
     margin-left: -14px;
@@ -280,8 +283,4 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.con1 .but1{
-    margin-left: 12px;
 }
